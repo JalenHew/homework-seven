@@ -1,0 +1,19 @@
+.fullpage {
+	.specialOffers {
+		.specialHeader {
+			width: 40%;
+			height: 50.5px;
+			margin-top: -20px;
+			font-size: 30px;
+			margin-bottom: -10%;
+			// background-color: purple;
+			font-family: proximanova;
+
+			.UnderLine {
+				width: 70%;
+				height: 2px;
+				background-color: $site-black;
+			}
+		}
+	}
+}

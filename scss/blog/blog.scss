@@ -1,0 +1,164 @@
+.container {
+	height: 100%;
+	width: $site-width;
+	padding-bottom: $footer-height;
+	// background-color: orange;
+	margin: 0 auto;
+	.header {
+		max-width: 106.5px;
+		margin-bottom: 31.5px;
+		.blog {
+			max-width: 106.5px;
+			max-height: 48.5px;
+			font-size: 30px;
+			// background-color: red;
+			font-family: proximanova;
+		}
+		.UnderLine {
+			width: 100%;
+			height: 2px;
+			background-color: $site-black;
+		}
+	}
+
+	.blogHome {
+		max-height: 376px;
+		max-width: $site-width;
+		// background-color: blue;
+		display: flex;
+		justify-content: space-between;
+		.date {
+			height: 60px;
+			width: 60px;
+			background-color: $site-blue;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			color: $site-white;
+
+			.dateNum {
+				font-size: 22px;
+				font-family: gill_sans_bold;
+			}
+
+			.month {
+				font-size: 12px;
+				font-family: gill_sans_light;
+			}
+		}
+		.picText {
+			min-width: 900px;
+			height: 100%;
+			// background-color: gray;
+			// display: flex;
+			// flex-direction: column;
+
+			.blogPic {
+				max-width: 900px;
+				height: 259px;
+				// background-color: purple;
+				background-image: url(../images/blog.jpg);
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: cover;
+			}
+
+			.blogText {
+				height: 97px;
+				max-width: 380px;
+
+				.bigText {
+					font-size: 15px;
+					font-family: gill_sans;
+				}
+
+				.blueText {
+					color: $site-blue;
+					font-size: 13px;
+					font-family: gill_sans;
+				}
+			}
+		}
+	}
+
+	.header {
+		max-width: 106.5px;
+		margin-bottom: 31.5px;
+		.blog {
+			max-width: 106.5px;
+			max-height: 48.5px;
+			font-size: 30px;
+			// background-color: red;
+			font-family: proximanova;
+		}
+		.UnderLine {
+			width: 100%;
+			height: 2px;
+			background-color: $site-black;
+		}
+	}
+
+	.blogHome_two {
+		max-height: 376px;
+		max-width: $site-width;
+		// background-color: blue;
+		display: flex;
+		justify-content: space-between;
+		margin-top: 12%;
+		.date_two {
+			height: 60px;
+			width: 60px;
+			background-color: $site-blue;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			color: $site-white;
+
+			.dateNum {
+				font-size: 22px;
+				font-family: gill_sans_bold;
+			}
+
+			.month {
+				font-size: 12px;
+				font-family: gill_sans_light;
+			}
+		}
+		.picText_two {
+			min-width: 900px;
+			height: 100%;
+			// background-color: gray;
+
+			// display: flex;
+			// flex-direction: column;
+
+			.blogText_two {
+				height: 97px;
+				max-width: 380px;
+
+				.bigText {
+					font-size: 15px;
+					font-family: gill_sans;
+				}
+
+				.blueText {
+					color: $site-blue;
+					font-size: 13px;
+					font-family: gill_sans;
+				}
+			}
+
+			.blogPic_two {
+				max-width: 900px;
+				height: 259px;
+				// background-color: purple;
+				background-image: url(../images/blog.jpg);
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: cover;
+			}
+		}
+	}
+}

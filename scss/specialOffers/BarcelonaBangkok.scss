@@ -1,0 +1,154 @@
+.specialOffers {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: $site-width;
+	height: 100vh;
+	margin: 0 auto;
+	// background-color: peachpuff;
+
+	.Barcelona {
+		max-height: 291px;
+		max-width: 538px;
+		// background-color: #ff0000;
+		display: flex;
+
+		.BarcelonaImg {
+			max-height: 291px;
+			width: 199px;
+			// background-color: purple;
+			margin-right: 20px;
+			background-image: url(../images/special-offer-01.jpg);
+			background-position: center;
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+
+		.BarcelonaTxt {
+			max-height: 306px;
+			max-width: 291px;
+			// background-color: orangered;
+
+			.BarcelonaHeader {
+				max-height: 40px;
+				max-width: 306px;
+				font-size: 30px;
+				// background-color: blue;
+				display: flex;
+				position: relative;
+
+				p {
+					font-family: proximanova;
+				}
+
+				.twentyPercent {
+					position: absolute;
+					font-size: 20px;
+					color: #ff7d38;
+					right: 0;
+					bottom: 0;
+				}
+			}
+
+			.UnderLine {
+				width: 70%;
+				height: 2px;
+				background-color: $site-black;
+			}
+
+			.BarcelonaAbout {
+				max-height: 131px;
+				max-width: 290px;
+				// background-color: lawngreen;
+				margin-top: 8%;
+				font-family: gill_sans_light;
+			}
+
+			.LearnMore {
+				height: 40px;
+				max-width: 133px;
+				border-radius: 20px;
+				background-color: $site-blue;
+				text-align: center;
+				margin-top: 18%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				color: $site-white;
+				font-family: gill_sans;
+			}
+		}
+	}
+
+	.Bangkok {
+		max-height: 291px;
+		max-width: 560px;
+		// background-color: red;
+		display: flex;
+		.BangkokImg {
+			max-height: 291px;
+			width: 199px;
+			// background-color: purple;
+			margin-right: 20px;
+			background-image: url(../images/special-offer-02.jpg);
+			background-position: center;
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+
+		.BangkokTxt {
+			max-width: 341px;
+			max-height: 291px;
+			// background-color: orangered;
+
+			.BangkokHeader {
+				max-height: 40px;
+				max-width: 341px;
+				// background-color: blue;
+				font-size: 30px;
+				display: flex;
+				position: relative;
+
+				p {
+					font-family: proximanova;
+				}
+
+				.twentyPercent {
+					position: absolute;
+					font-size: 20px;
+					color: #ff7d38;
+					right: 0;
+					bottom: 0;
+				}
+			}
+
+			.UnderLine {
+				width: 70%;
+				height: 2px;
+				background-color: $site-black;
+			}
+
+			.BangkokAbout {
+				max-height: 131px;
+				max-width: 290px;
+				// background-color: lawngreen;
+				margin-top: 8%;
+				font-family: gill_sans_light;
+			}
+
+			.LearnMore {
+				height: 40px;
+				max-width: 133px;
+				border-radius: 20px;
+				background-color: $site-blue;
+				text-align: center;
+				margin-top: 18%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				color: $site-white;
+				font-family: gill_sans;
+			}
+		}
+	}
+}
